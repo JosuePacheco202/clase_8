@@ -64,7 +64,7 @@ a:hover{
 
 .FilaHabilidades{
     width: 50%;
-    margin: 100px;
+    margin: 100px auto 100px;
     text-align: left;
 }
 
@@ -90,7 +90,7 @@ a:hover{
 }
 
 .NubeInferior{
-        position: absolute;
+    position: absolute;
     left: 250px;
     bottom: 300px;
 }
@@ -109,15 +109,13 @@ a:hover{
 
 .Intro{
     width: 30%;
+    margin: auto;
 }
 
-<a href="#" class="myButton">green</a>
-
 .btn {
-	background:linear-gradient(to bottom, #011899 5%, #066cfb 100%);
-	background-color:#011899;
+	background:linear-gradient(to bottom, #11999e 5%, #53b5b5 100%);
+	background-color:#11999e;
 	border-radius:10px;
-	border:1px solid #066cfb;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -128,8 +126,8 @@ a:hover{
 	text-shadow:0px 1px 0px #2f6627;
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #066cfb 5%, #011899 100%);
-	background-color:#066cfb;
+	background:linear-gradient(to bottom, #53b5b5 5%, #11999e 100%);
+	background-color:#53b5b5;
 }
 .btn:active {
 	position:relative;
